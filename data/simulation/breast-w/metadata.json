@@ -1,0 +1,42 @@
+{
+  "dataset": "breast-w",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/breast-w.arff",
+  "num_objects": 699,
+  "num_features": 9,
+  "num_classes": 2,
+  "num_workers": 40,
+  "num_answers": 1382,
+  "avg_labels_per_object": 1.9771101573676682,
+  "uncovered_objects_before_fix": 104,
+  "ensure_object_coverage": true,
+  "seed": 48,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "Clump_Thickness",
+    "Cell_Size_Uniformity",
+    "Cell_Shape_Uniformity",
+    "Marginal_Adhesion",
+    "Single_Epi_Cell_Size",
+    "Bare_Nuclei",
+    "Bland_Chromatin",
+    "Normal_Nucleoli",
+    "Mitoses"
+  ],
+  "feature_types": [
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]",
+    "integer [1,10]"
+  ],
+  "class_values": [
+    "0",
+    "1"
+  ]
+}

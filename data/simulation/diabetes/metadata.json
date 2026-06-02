@@ -1,0 +1,40 @@
+{
+  "dataset": "diabetes",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/diabetes.arff",
+  "num_objects": 768,
+  "num_features": 8,
+  "num_classes": 2,
+  "num_workers": 40,
+  "num_answers": 1709,
+  "avg_labels_per_object": 2.2252604166666665,
+  "uncovered_objects_before_fix": 81,
+  "ensure_object_coverage": true,
+  "seed": 52,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "preg",
+    "plas",
+    "pres",
+    "skin",
+    "insu",
+    "mass",
+    "pedi",
+    "age"
+  ],
+  "feature_types": [
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real"
+  ],
+  "class_values": [
+    "0",
+    "1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "dataset": "heart-statlog",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/heart-statlog.arff",
+  "num_objects": 270,
+  "num_features": 13,
+  "num_classes": 2,
+  "num_workers": 40,
+  "num_answers": 564,
+  "avg_labels_per_object": 2.088888888888889,
+  "uncovered_objects_before_fix": 35,
+  "ensure_object_coverage": true,
+  "seed": 55,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "age",
+    "sex",
+    "chest",
+    "resting_blood_pressure",
+    "serum_cholestoral",
+    "fasting_blood_sugar",
+    "resting_electrocardiographic_results",
+    "maximum_heart_rate_achieved",
+    "exercise_induced_angina",
+    "oldpeak",
+    "slope",
+    "number_of_major_vessels",
+    "thal"
+  ],
+  "feature_types": [
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real",
+    "real"
+  ],
+  "class_values": [
+    "0",
+    "1"
+  ]
+}

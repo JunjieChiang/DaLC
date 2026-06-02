@@ -1,0 +1,38 @@
+{
+  "dataset": "car",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/car.arff",
+  "num_objects": 1728,
+  "num_features": 6,
+  "num_classes": 4,
+  "num_workers": 40,
+  "num_answers": 3537,
+  "avg_labels_per_object": 2.046875,
+  "uncovered_objects_before_fix": 231,
+  "ensure_object_coverage": true,
+  "seed": 49,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "buying",
+    "maint",
+    "doors",
+    "persons",
+    "lug_boot",
+    "safety"
+  ],
+  "feature_types": [
+    "{vhigh, high, med, low}",
+    "{vhigh, high, med, low}",
+    "{2, 3, 4, 5more}",
+    "{  2, 4, more}",
+    "{ small, med, big}",
+    "{ low, med, high}"
+  ],
+  "class_values": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ]
+}

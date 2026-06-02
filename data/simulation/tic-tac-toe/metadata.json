@@ -1,0 +1,42 @@
+{
+  "dataset": "tic-tac-toe",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/tic-tac-toe.arff",
+  "num_objects": 958,
+  "num_features": 9,
+  "num_classes": 2,
+  "num_workers": 40,
+  "num_answers": 2008,
+  "avg_labels_per_object": 2.096033402922756,
+  "uncovered_objects_before_fix": 116,
+  "ensure_object_coverage": true,
+  "seed": 70,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "top-left-square",
+    "top-middle-square",
+    "top-right-square",
+    "middle-left-square",
+    "middle-middle-square",
+    "middle-right-square",
+    "bottom-left-square",
+    "bottom-middle-square",
+    "bottom-right-square"
+  ],
+  "feature_types": [
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}",
+    "{x,o,b}"
+  ],
+  "class_values": [
+    "0",
+    "1"
+  ]
+}

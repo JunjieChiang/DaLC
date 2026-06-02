@@ -1,0 +1,53 @@
+{
+  "dataset": "heart-h",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/heart-h.arff",
+  "num_objects": 294,
+  "num_features": 13,
+  "num_classes": 2,
+  "num_workers": 40,
+  "num_answers": 648,
+  "avg_labels_per_object": 2.204081632653061,
+  "uncovered_objects_before_fix": 34,
+  "ensure_object_coverage": true,
+  "seed": 54,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "age",
+    "sex",
+    "chest_pain",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "feature_types": [
+    "real",
+    "{ female, male}",
+    "{ typ_angina, asympt, non_anginal, atyp_angina}",
+    "real",
+    "real",
+    "{ t, f}",
+    "{ left_vent_hyper, normal, st_t_wave_abnormality}",
+    "real",
+    "{ no, yes}",
+    "real",
+    "{ down, flat, up}",
+    "real",
+    "{ fixed_defect, normal, reversable_defect}"
+  ],
+  "class_values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ]
+}

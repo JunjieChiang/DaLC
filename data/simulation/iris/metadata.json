@@ -1,0 +1,33 @@
+{
+  "dataset": "iris",
+  "source_arff": "/Users/jiang/Documents/Truth Inference/examples/LDPLC/unpacked/code and datasets/datasets/simulation/iris.arff",
+  "num_objects": 150,
+  "num_features": 4,
+  "num_classes": 3,
+  "num_workers": 40,
+  "num_answers": 335,
+  "avg_labels_per_object": 2.2333333333333334,
+  "uncovered_objects_before_fix": 20,
+  "ensure_object_coverage": true,
+  "seed": 60,
+  "worker_label_prob_max": 0.1,
+  "worker_quality_min": 0.6,
+  "worker_quality_max": 0.9,
+  "feature_names": [
+    "sepallength",
+    "sepalwidth",
+    "petallength",
+    "petalwidth"
+  ],
+  "feature_types": [
+    "REAL",
+    "REAL",
+    "REAL",
+    "REAL"
+  ],
+  "class_values": [
+    "0",
+    "1",
+    "2"
+  ]
+}
